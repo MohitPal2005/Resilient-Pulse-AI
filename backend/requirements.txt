@@ -1,0 +1,7 @@
+flask
+flask-cors
+python-dotenv
+google-cloud-aiplatform
+google-cloud-bigquery
+# cudf will be installed separately based on your specific NVIDIA/CUDA environment
+pandas

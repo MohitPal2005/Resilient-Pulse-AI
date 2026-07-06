@@ -1,0 +1,38 @@
+# ========================
+# Node & Frontend
+# ========================
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# ========================
+# Python & Backend
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# ========================
+# GCP & Secrets (CRITICAL)
+# ========================
+*.json
+!frontend/package.json
+!frontend/package-lock.json
+!frontend/.eslintrc.json
+
+# ========================
+# Data & Big Files
+# ========================
+backend/data/
+*.parquet
+*.csv
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
